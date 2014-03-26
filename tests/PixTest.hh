@@ -80,6 +80,7 @@ public:
   std::vector<TH1*> scurveMaps(std::string dac, std::string name, int ntrig = 10, int daclo = 0, int dachi = 255, int result = 3); 
   /// returns TH2D's for the threshold
   std::vector<TH1*> thrMaps(std::string dac, std::string name, int ntrig = 10);
+  std::vector<TH1*> thrMaps(std::string dac, uint8_t dacmin, uint8_t dacmax, std::string name, uint16_t flags,  int ntrig = 10);
 
   /// book a TH1D, adding version information to the name and title 
   TH1D* bookTH1D(std::string sname, std::string title, int nbins, double xmin, double xmax); 
