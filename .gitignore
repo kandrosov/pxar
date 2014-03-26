@@ -16,3 +16,5 @@ obj/
 
 # auto-generated files should not be added 
 usertests/PixUserTestFactory.cc
+
+pxar.creator.user

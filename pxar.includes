@@ -1,0 +1,13 @@
+$$(ROOT_INCLUDE_PATH)
+
+cmake
+core/api
+core/hal
+core/rpc
+core/usb
+core/utils
+debug
+util
+tests
+usertests
+gui
