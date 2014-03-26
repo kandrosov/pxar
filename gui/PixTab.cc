@@ -18,8 +18,6 @@
 using namespace std;
 using namespace pxar; 
 
-ClassImp(PixTab)
-
 // ----------------------------------------------------------------------
 PixTab::PixTab(PixGui *p, PixTest *test, string tabname) {
   init(p, test, tabname); 

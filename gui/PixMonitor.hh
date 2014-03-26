@@ -20,7 +20,7 @@
 
 class PixGui; 
 
-class DLLEXPORT PixMonitor: public TQObject {
+class DLLEXPORT PixMonitor {
 public:
   PixMonitor(TGGroupFrame *f, PixGui *p);
   virtual ~PixMonitor();
@@ -50,8 +50,6 @@ private:
     B_DRAWANA = TESTNUMBER + 21,
     B_DRAWDIGI
   };
-
-  ClassDef(PixMonitor, 1)
 
 };
 #endif

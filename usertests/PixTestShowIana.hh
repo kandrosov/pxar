@@ -17,10 +17,5 @@ public:
 
   void doTest(); 
 
-private:
-
-
-  ClassDef(PixTestShowIana, 1)
-
 };
 #endif

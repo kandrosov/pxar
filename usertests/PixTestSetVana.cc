@@ -15,8 +15,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestSetVana)
-
 //------------------------------------------------------------------------------
 PixTestSetVana::PixTestSetVana( PixSetup *a, std::string name )
 : PixTest(a, name), fTargetIa(24)

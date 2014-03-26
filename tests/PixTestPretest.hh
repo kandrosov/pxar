@@ -28,7 +28,5 @@ private:
   int     fNoiseMargin;
   int     fParNtrig;
 
-  ClassDef(PixTestPretest, 1)
-
 };
 #endif

@@ -21,8 +21,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixGui)
-
 // ----------------------------------------------------------------------
 PixGui::PixGui( const TGWindow *p, UInt_t w, UInt_t h, PixSetup *setup) : 
 TGMainFrame(p, 1, 1, kVerticalFrame), fWidth(w), fHeight(h) {
@@ -381,7 +379,7 @@ void PixGui::createTab(const char* csel) {
 
   fTestList.push_back(pt); 
   PixTab *t = new PixTab(this, pt, string(csel)); 
-  pt->Connect("update()", "PixTab", t, "update()"); 
+//  pt->Connect("update()", "PixTab", t, "update()");
   //  fTabs->Resize(fTabs->GetDefaultSize());
   //  fTabs->MoveResize(0, 0, 800, 800);
   MapSubwindows();

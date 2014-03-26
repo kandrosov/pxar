@@ -21,7 +21,5 @@ private:
   int     fParNtrig; 
   int     fParCals;
 
-  ClassDef(PixTestMapPh, 1)
-
 };
 #endif

@@ -20,7 +20,5 @@ private:
 
   int     fParNtrig; 
 
-  ClassDef(PixTestMapThr, 1)
-
 };
 #endif

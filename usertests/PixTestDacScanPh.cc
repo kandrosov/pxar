@@ -10,8 +10,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestDacScanPh)
-
 //------------------------------------------------------------------------------
 PixTestDacScanPh::PixTestDacScanPh( PixSetup *a, std::string name )
 : PixTest(a, name), fParNtrig(-1),

@@ -76,12 +76,13 @@ SET(MY_INCLUDE_DIRECTORIES ${PROJECT_SOURCE_DIR}/core/api ${PROJECT_SOURCE_DIR}/
 
 # set everything needed for the root dictonary and create the
 # dictionary
-set(USERTESTLIB_DICTIONARY ${CMAKE_CURRENT_BINARY_DIR}/usertestsDict.cxx) 
-ROOT_GENERATE_DICTIONARY_OLD("${USERTESTLIB_HEADERS}" "${USERTESTLIB_DICTIONARY}" "${MY_INCLUDE_DIRECTORIES}")
+#set(USERTESTLIB_DICTIONARY ${CMAKE_CURRENT_BINARY_DIR}/usertestsDict.cxx) 
+#ROOT_GENERATE_DICTIONARY_OLD("${USERTESTLIB_HEADERS}" "${USERTESTLIB_DICTIONARY}" "${MY_INCLUDE_DIRECTORIES}")
 
 
 # create a shared library
-ADD_LIBRARY( pxarusertests SHARED ${USERTESTLIB_SOURCES} ${USERTESTLIB_DICTIONARY} )
+#ADD_LIBRARY( pxarusertests SHARED ${USERTESTLIB_SOURCES} ${USERTESTLIB_DICTIONARY} )
+ADD_LIBRARY( pxarusertests SHARED ${USERTESTLIB_SOURCES} )
 # link against our core library, the util lib, the root stuff, and the USB libs
 target_link_libraries(pxarusertests pxartests pxarutil ${PROJECT_NAME} ${ROOT_LIBRARIES} ${FTDI_LINK_LIBRARY} )
 

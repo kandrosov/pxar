@@ -11,7 +11,7 @@
 #include <iostream>
 
 
-class DLLEXPORT PixInitFunc: public TObject {
+class DLLEXPORT PixInitFunc {
 
 public:
 
@@ -27,8 +27,6 @@ public:
   double fLo, fHi;
   bool fLimit[20];
   double fLimitLo[20], fLimitHi[20]; 
-
-  ClassDef(PixInitFunc, 1); // testing PixInitFunc
 
 };
 

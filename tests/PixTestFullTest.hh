@@ -15,10 +15,5 @@ public:
 
   void doTest(); 
 
-private:
-  
-  
-  ClassDef(PixTestFullTest, 1)
-
 };
 #endif

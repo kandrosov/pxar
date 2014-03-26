@@ -22,7 +22,5 @@ private:
   std::string fParDac;
   int         fParNtrig, fParNpix, fParDacLo, fParDacHi;
 
-  ClassDef(PixTestScurves, 1)
-
 };
 #endif

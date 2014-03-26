@@ -9,8 +9,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestTbm)
-
 // ----------------------------------------------------------------------
 PixTestTbm::PixTestTbm(PixSetup *a, std::string name) : PixTest(a, name), fParNtrig(-1), fParVcal(-1) {
   PixTest::init();

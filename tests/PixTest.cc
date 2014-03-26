@@ -14,8 +14,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTest)
-
 // ----------------------------------------------------------------------
 PixTest::PixTest(PixSetup *a, string name) {
   //  LOG(logINFO) << "PixTest ctor(PixSetup, string)";
@@ -375,13 +373,13 @@ PixTest::~PixTest() {
 // ----------------------------------------------------------------------
 void PixTest::testDone() {
   //  LOG(logINFO) << "PixTest::testDone()";
-  Emit("testDone()"); 
+//  Emit("testDone()");
 }
 
 // ----------------------------------------------------------------------
 void PixTest::update() {
   //  cout << "PixTest::update()" << endl;
-  Emit("update()"); 
+//  Emit("update()");
 }
 
 

@@ -22,7 +22,5 @@ private:
   uint16_t fParNtrig; 
   int      fParVcal; 
 
-  ClassDef(PixTestAlive, 1)
-
 };
 #endif

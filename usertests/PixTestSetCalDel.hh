@@ -20,7 +20,5 @@ private:
 
   int     fParNtrig; 
 
-  ClassDef(PixTestSetCalDel, 1)
-
 };
 #endif

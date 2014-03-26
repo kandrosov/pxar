@@ -31,7 +31,5 @@ private:
   uint8_t rocthr[52][80];
   uint8_t roctrm[52][80];
 
-  ClassDef(PixTestSetTrim, 1)
-
 };
 #endif

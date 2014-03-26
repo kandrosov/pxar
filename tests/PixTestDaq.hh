@@ -24,7 +24,5 @@ private:
 
   std::map<int, int> id2idx; // map the ROC ID onto the index of the ROC
 
-  ClassDef(PixTestDaq, 1)
-
 };
 #endif

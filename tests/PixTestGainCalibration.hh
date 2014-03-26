@@ -14,10 +14,5 @@ public:
 
   void doTest(); 
   
-  
-private:
-
-  ClassDef(PixTestGainCalibration, 1)
-
 };
 #endif

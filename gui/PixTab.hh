@@ -19,7 +19,7 @@
 #include "PixGui.hh"
 #include "PixTest.hh"
 
-class DLLEXPORT PixTab: public TQObject {
+class DLLEXPORT PixTab {
 public:
   PixTab(PixGui *p, PixTest *test, std::string tabname);
   PixTab();
@@ -74,8 +74,6 @@ protected:
 
   int                   fBorderN, fBorderT, fBorderL;  // normal, tiny, large
   
-  ClassDef(PixTab, 1)
-
 };
 
 #endif

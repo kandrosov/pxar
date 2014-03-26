@@ -11,8 +11,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestSetPh)
-
 //------------------------------------------------------------------------------
 PixTestSetPh::PixTestSetPh( PixSetup *a, std::string name )
 : PixTest(a, name), fParNtrig(-1)

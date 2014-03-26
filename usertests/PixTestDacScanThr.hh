@@ -24,7 +24,5 @@ private:
   int     fParCals;
   std::vector<std::pair<int, int> > fPIX;
 
-  ClassDef(PixTestDacScanThr, 1)
-
 };
 #endif

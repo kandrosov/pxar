@@ -21,7 +21,5 @@ private:
   int     fParLoDAC, fParHiDAC;
   std::vector<std::pair<int, int> > fPIX; 
 
-  ClassDef(PixTestPhDacScan, 1)
-
 };
 #endif

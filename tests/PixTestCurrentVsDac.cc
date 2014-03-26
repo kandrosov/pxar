@@ -13,8 +13,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestCurrentVsDac)
-
 // ----------------------------------------------------------------------
 PixTestCurrentVsDac::PixTestCurrentVsDac( PixSetup *a, std::string name )
 : PixTest(a, name), fParDAC("nada")

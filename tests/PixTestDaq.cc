@@ -9,8 +9,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestDaq)
-
 // ----------------------------------------------------------------------
 PixTestDaq::PixTestDaq(PixSetup *a, std::string name) : PixTest(a, name), fParNtrig(-1) {
   PixTest::init();

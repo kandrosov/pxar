@@ -20,7 +20,5 @@ private:
 
   int fTargetIa; // [mA/ROC]
 
-  ClassDef(PixTestSetVana, 1)
-
 };
 #endif

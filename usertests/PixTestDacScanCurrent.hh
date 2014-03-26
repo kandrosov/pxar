@@ -20,7 +20,5 @@ private:
 
   std::string fParDAC; 
 
-  ClassDef(PixTestDacScanCurrent, 1)
-
 };
 #endif

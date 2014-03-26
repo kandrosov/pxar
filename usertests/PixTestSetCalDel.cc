@@ -15,8 +15,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestSetCalDel)
-
 //------------------------------------------------------------------------------
 PixTestSetCalDel::PixTestSetCalDel( PixSetup *a, std::string name) :
 PixTest(a, name), fParNtrig(-1)

@@ -5,8 +5,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestGainCalibration)
-
 //----------------------------------------------------------
 PixTestGainCalibration::PixTestGainCalibration(PixSetup *a, std::string name): PixTest(a, name) {
   LOG(logDEBUG) << "PixTestGainCalibration ctor(PixSetup &, string)";

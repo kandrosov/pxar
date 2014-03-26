@@ -20,17 +20,12 @@ public:
   PixTest*                    createTest(std::string, PixSetup *); 
 
 protected: 
-  PixUserTestFactory() {}; 
-  ~PixUserTestFactory() {}; 
+  PixUserTestFactory() {}
+  ~PixUserTestFactory() {}
 
 private:
   static PixUserTestFactory* fInstance; 
 
-  ClassDef(PixUserTestFactory, 1)
-
 };
-
-
-
 
 #endif

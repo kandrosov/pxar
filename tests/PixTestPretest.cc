@@ -10,8 +10,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestPretest)
-
 // ----------------------------------------------------------------------
 PixTestPretest::PixTestPretest( PixSetup *a, std::string name) : PixTest(a, name), fTargetIa(-1), fNoiseWidth(22), fNoiseMargin(10), fParNtrig(-1) {
   PixTest::init();

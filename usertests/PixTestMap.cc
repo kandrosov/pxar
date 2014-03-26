@@ -10,8 +10,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestMap)
-
 //------------------------------------------------------------------------------
 PixTestMap::PixTestMap( PixSetup *a, std::string name ) :
 PixTest(a, name), fParNtrig(-1), fParVcal(-1)

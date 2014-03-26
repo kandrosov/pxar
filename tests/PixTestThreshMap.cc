@@ -9,8 +9,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestThreshMap)
-
 // ----------------------------------------------------------------------
 PixTestThreshMap::PixTestThreshMap(PixSetup *a, std::string name) : PixTest(a, name) {
   PixTest::init();

@@ -11,8 +11,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestFullTest)
-
 // ----------------------------------------------------------------------
 PixTestFullTest::PixTestFullTest(PixSetup *a, std::string name) : PixTest(a, name) {
   PixTest::init();

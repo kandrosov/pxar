@@ -71,7 +71,5 @@ private:
   int          fParVcalS;   // vcal dac value of the cals probe signal
   int          fPartest;    // direct vcal value for test runs, active if >0
 
-  ClassDef(PixTestBBMap, 1); 
-
 };
 #endif

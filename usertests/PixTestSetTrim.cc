@@ -11,8 +11,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestSetTrim)
-
 //------------------------------------------------------------------------------
 PixTestSetTrim::PixTestSetTrim( PixSetup *a, std::string name )
 : PixTest(a, name), fParVcal(-1), fParNtrig(-1)

@@ -19,8 +19,6 @@ protected:
 private:
   static PixTestFactory* fInstance; 
 
-  ClassDef(PixTestFactory, 1)
-
 };
 
 

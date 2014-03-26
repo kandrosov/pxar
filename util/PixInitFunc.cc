@@ -8,8 +8,6 @@
 #include <iomanip>
 
 
-ClassImp(PixInitFunc)
-
 using namespace std;
 
 namespace {

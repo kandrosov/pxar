@@ -12,8 +12,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestDacScanCurrent)
-
 //------------------------------------------------------------------------------
 PixTestDacScanCurrent::PixTestDacScanCurrent( PixSetup *a, std::string name )
 : PixTest(a, name), fParDAC("nada")

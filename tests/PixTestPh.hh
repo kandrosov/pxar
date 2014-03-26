@@ -24,7 +24,5 @@ private:
   int     fParDAC2Hi, fParDAC2Lo, fParDAC2Step;
   std::vector<std::pair<int, int> > fPIX; 
 
-  ClassDef(PixTestPh, 1)
-
 };
 #endif

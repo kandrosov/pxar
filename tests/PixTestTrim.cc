@@ -13,8 +13,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestTrim)
-
 // ----------------------------------------------------------------------
 PixTestTrim::PixTestTrim(PixSetup *a, std::string name) : PixTest(a, name), fParVcal(-1), fParNtrig(-1), fParVthrCompLo(-1), fParVthrCompHi(-1), fParVcalLo(-1), fParVcalHi(-1) {
   PixTest::init();

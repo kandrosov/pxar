@@ -9,8 +9,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixTestShowIana)
-
 //------------------------------------------------------------------------------
 PixTestShowIana::PixTestShowIana( PixSetup *a, std::string name )
 : PixTest(a, name)

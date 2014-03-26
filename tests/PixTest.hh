@@ -42,7 +42,7 @@ typedef char int8_t;
 /// - retrieve histograms instead readout decoding (e.g. efficiencyMap)
 /// - list of selected pixels (fPIX)
 ///
-class DLLEXPORT PixTest: public TQObject {
+class DLLEXPORT PixTest {
 public:
   /// constructor requires PixSet to get test parameters and config parameters
   PixTest(PixSetup *a, std::string name);
@@ -176,8 +176,6 @@ protected:
 
   std::vector<std::pair<int, int> > fPIX; ///< range of enabled pixels for time-consuming tests
   std::map<int, int>    fId2Idx; ///< map the ROC ID onto the (results vector) index of the ROC
-
-  ClassDef(PixTest, 1); // testing PixTest
 
 };
 

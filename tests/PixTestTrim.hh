@@ -29,7 +29,5 @@ private:
   std::vector<std::pair<int, int> > fPIX; 
   int     fTrimBits[16][52][80]; 
   
-  ClassDef(PixTestTrim, 1)
-
 };
 #endif

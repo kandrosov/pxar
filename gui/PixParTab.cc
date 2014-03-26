@@ -19,8 +19,6 @@
 using namespace std;
 using namespace pxar;
 
-ClassImp(PixParTab)
-
 // ----------------------------------------------------------------------
 PixParTab::PixParTab(PixGui *p, ConfigParameters *cfg, string tabname) {
   init(p, cfg, tabname); 

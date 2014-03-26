@@ -109,9 +109,6 @@ private:
   ULong_t                fRed, fGreen, fYellow; 
 
   int                    fBorderN, fBorderT, fBorderL;  // normal, tiny, large
-
-  ClassDef(PixGui, 1); //
-
 };
 
 #endif
